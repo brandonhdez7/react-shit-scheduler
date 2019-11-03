@@ -1,0 +1,349 @@
+body{
+	color:black;
+	margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.btn {
+	margin-top: 10px;
+}
+.banner1{
+	background: transparent;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 720px;
+	padding-top: 100px;
+
+}
+.container{
+	background: transparent;
+}
+.description{
+	/* background-color:#f8f9fa;
+	width: 100%; */
+}
+.column_left{
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	padding: 50px;
+	height: 100%;
+	text-align: left
+}
+.column_right{
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	height: 100%;
+	padding-top: 50px; 
+}
+.column_left h2{
+	font-size: 50px;
+	font-weight: 800;
+}
+.column_left p{
+	font-size: 20px;
+}
+.column_right img{
+	width: 90%;
+}
+.announcement {
+	background-color: #f8f9fa;
+	color: #4D4D4D;
+	width: 300px;
+	float: left;
+	margin:10px 0 20px 20px;
+}
+.emp-announcement {
+	background-color: #f8f9fa;
+	color: #4D4D4D;
+	width: 100%;
+	margin:0 0px 10px 0px;
+}
+.schedule{
+	background-color: #f8f9fa;
+	color: #05386b;
+	padding: 10px;
+}
+.emp-h2{
+	float: right;
+	font-size: 35px;
+	font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+	font-size: 32px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+	margin-right: 25px;
+}
+#gif{
+	margin-top: 10px;
+	width: 60px;
+	height: 60px;
+}
+.App {
+  text-align: center;
+  background-image: url(/assets/images/bg-effect.png);
+  background-size: 100% 720px;
+  background-repeat: no-repeat
+}
+.App h3{
+	margin-top: 28px;
+	float: left;
+	font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+	font-size: 32px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+	margin-left: 15px; 
+	color:black;
+}
+.brand-logo{
+	color: #4D4D4D;
+	outline: none;
+	text-decoration: none;
+}
+.nav {
+	float: right;
+	margin-right: 20px;
+}
+.navbar {
+	height: 100px;
+	background: transparent;
+}
+.logo{
+	width: 40px
+}
+.nav-link {
+	padding-top: 12px;
+	font-size: 22px;
+}
+#loginForm {
+		margin-top: 30px;
+		background-color: #f8f9fa;
+		color: #05386b;
+}
+#login-header {
+	background-color: #f8f9fa;
+		color: #05386b;
+}
+#signup-form {
+background-color: #f8f9fa;
+		color: #05386b;
+		margin-top: 30px;
+}
+#manager-an-view {
+	float: right;
+	margin-right: 100px;
+	width: 280px;
+}
+#add-announcment{
+	width: 360px;
+	height: 370px;
+	margin-left: 60px;
+	background-color: #f8f9fa;
+	color: #4D4D4D;
+}
+.emp-management-btn {
+	background-color: #f8f9fa;
+		color: #05386b;
+		margin-bottom: 10px;
+		margin-left: 10px;
+}
+#schedule-build {
+	background-color: #f8f9fa;
+		color: #05386b;
+		padding: 0px 20px 10px 20px;
+}
+.browser-default.schedule {
+	border-radius: 5px;
+	background-color: white;  
+}
+#home{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 20px;
+	font-size: 16px;
+	float: left;
+	box-shadow: 0 8px 10px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#home:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(3px);
+}
+#allEmployees {
+	margin-top: 10px;
+	padding-left: 30px;
+	background-color: #f8f9fa;
+		color: #05386b;
+}
+#add-schedule {
+	padding-top: 10px;
+	margin-top: 10px;
+	margin-left: 5px;
+	background-color: #f8f9fa;
+	color: #05386b;
+}
+#home2 {
+	margin-left: 20px;
+	font-size: 16px;
+	box-shadow: 0 8px 10px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#home2:active {
+  
+  box-shadow: 0 5px #666;
+  transform: translateY(3px);
+}
+#manager-h3 {
+	color: #4D4D4D;
+	margin-top: 30px;
+	margin-right: 15px;
+	float: right;
+}
+.btn:active {
+	box-shadow: 0 8px 10px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+i.material-icons.home {
+	font-size: 40px;
+}
+
+.footer-copyright {
+	margin-bottom: -20px;
+}
+
+@media screen and (max-width: 768px) {
+		
+#add-announcment{
+	width: 330px;
+	height: 340px;
+	margin-left: 20px;
+}
+#schedule-build {
+	margin-top: 20px;
+	margin-right: 20px;
+}
+	} /* End of Media queries for 768px */
+
+@media screen and (max-width: 640px) {
+.nav-link {
+	padding:15px 2px 2px 2px;
+	font-size: 18px;
+}
+#loginForm {
+		margin-top: 10px;
+		margin-left: 40px;
+		padding: 10px 15px 5px 15px;
+		width: 280px;
+}
+.App h3{
+	font-size: 16px;
+}
+#signup-form {
+		margin-top: 10px;
+		padding: 10px;
+		width: 300px;
+		margin-left: 30px;
+}
+.schedule {
+	font-size: 80%;
+	margin-bottom: 30px;
+}
+.card-panel {
+	/* padding-right:  */
+}
+.announcement {
+	max-width:  250px;
+	margin-left: 0px;
+	padding-right: 15px;
+}
+#add-announcment{
+	max-width: 320px;
+}
+.btn {
+	padding: 0px 10px 0px 10px;
+}
+#addEmployee{
+	padding: 0px 10px 0px 10px;
+}
+#updateEmployee{
+	padding: 0px 10px 0px 10px;
+}
+#home2{
+	padding: 0px 10px 0px 10px;
+}
+#schedule-build {
+	font-size: 80%;
+	margin-right: 20px;
+}
+#sch-editor {
+	font-size: 14px;
+}
+.fullName {
+	font-size: 11px;
+}
+} /* End of Media queries for 640px */
+	
+@media screen and (max-width: 480px) {
+
+.manager-btns {
+	font-size: 90%;
+	margin-left: 55px;
+}
+.announcement {
+	max-width:  none;
+	width: 380px;
+	margin-left: -10px;
+	margin-bottom: 10px;
+	font-size: 90%;
+}
+#add-announcment{
+	max-width: none;
+	width: 380px;
+	margin-left: -10px;
+}
+.schedule {
+	margin-bottom: 0px;
+}
+#manager-h3 {
+	float: left;
+}
+.manager-emp-btns {
+	background: black;
+	margin-top: 20px;
+}
+.add-sch, .clear-sch {
+	font-size: 9px;
+	margin-left: 0px;
+	width: 40px;
+	padding-left: 4.5px;
+}
+.add-sch {
+	padding-left: 9px;
+}
+.browser-default.schedule {
+	height: 25px;
+	width: 4px;	
+}
+#schedule-build {
+	background-color: #4D4D4D;
+	color: #edf5e1;
+	margin-left: -15px;
+	width: 415px;
+}
+.navbar {
+	width: 405px;
+}
+.input-field.schedule {
+	border-radius: 5px;  
+}
+#home, #home2 {
+	font-size: 90%;
+}
+}
